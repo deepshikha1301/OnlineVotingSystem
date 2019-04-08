@@ -1,0 +1,5 @@
+package com.onlinevoting.controller;
+
+public class LoginController {
+
+}

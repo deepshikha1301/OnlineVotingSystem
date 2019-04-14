@@ -7,12 +7,12 @@
 <title>Insert title here</title>
 </head>
 <body>
-    <%! String name, password; %>
-    <% 
-       name = request.getParameter("username");
-       password = request.getParameter("password");
-       if(name.equals("deepshikha")&& password.equals("1234"))
-               {%>
+    <%! String voterID, password; %>
+    <%
+    	voterID = request.getParameter("voterID");
+           password = request.getParameter("pass");
+           if(voterID.equals("deepshikha") && password.equals("1234")) {
+    %>
                  <jsp:forward page="Profile.jsp"></jsp:forward>
                  <%}else { %>
                  Wrong username or password!!

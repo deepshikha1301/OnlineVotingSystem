@@ -1,6 +1,8 @@
 package com.onlinevoting.controller;
 
-import java.io.IOException;
+import java.io.IOException; 
+
+import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
@@ -18,10 +20,15 @@ public class LoginController extends HttpServlet {
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		// TODO Auto-generated method stub
 		
-		String username = request.getParameter("username");
+		String voterID = request.getParameter("voterID");
 		String password = request.getParameter("password");
-		if(username.equals("deepshikha")&& password.equals("1234")) {
-			response.sendRedirect("/WebContent/Profile");
+		if(voterID.equals("deepshikha")&& password.equals("1234")) {
+			RequestDispatcher rd = request.getRequestDispatcher("/Profile.jsp");
+			rd.forward(request, response);
+		}
+		else {
+			RequestDispatcher rd = request.getRequestDispatcher("/Login.jsp");
+			rd.include(request, response);
 		}
 	}
 

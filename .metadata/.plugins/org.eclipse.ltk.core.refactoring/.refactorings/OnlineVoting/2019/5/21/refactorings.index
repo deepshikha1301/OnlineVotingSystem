@@ -1,0 +1,9 @@
+1558545138468	Move 'js' to 'LoginContent'
+1558545153659	Move 'images' to 'LoginContent'
+1558545158523	Move 'fonts' to 'LoginContent'
+1558545163165	Move 'css' to 'LoginContent'
+1558545189819	Move 'vendor' to 'LoginContent'
+1558547150735	Rename resource 'registermain.css'
+1558547163707	Rename resource 'registerutil.css'
+1558631240730	Delete element
+1558631295629	Move 'ForgotPassword.jsp' to 'WebContent'

@@ -1,0 +1,10 @@
+127.0.0.1 - - [06/Jun/2019:01:52:28 +0530] "GET / HTTP/1.1" 404 1074
+0:0:0:0:0:0:0:1 - - [06/Jun/2019:01:52:28 +0530] "GET /OnlineVoting/ HTTP/1.1" 200 4426
+0:0:0:0:0:0:0:1 - - [06/Jun/2019:01:52:29 +0530] "GET /OnlineVoting/LoginContent/images/vote.jpg HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [06/Jun/2019:01:52:36 +0530] "GET /OnlineVoting/ForgotPassword.jsp HTTP/1.1" 200 1362
+0:0:0:0:0:0:0:1 - - [06/Jun/2019:01:52:36 +0530] "GET /favicon.ico HTTP/1.1" 404 1085
+0:0:0:0:0:0:0:1 - - [06/Jun/2019:01:52:44 +0530] "POST /OnlineVoting/forgotpassword HTTP/1.1" 200 -
+127.0.0.1 - - [06/Jun/2019:01:58:02 +0530] "GET / HTTP/1.1" 404 1074
+0:0:0:0:0:0:0:1 - - [06/Jun/2019:01:58:03 +0530] "GET /OnlineVoting/ HTTP/1.1" 200 4426
+0:0:0:0:0:0:0:1 - - [06/Jun/2019:01:58:07 +0530] "GET /OnlineVoting/ForgotPassword.jsp HTTP/1.1" 200 1362
+0:0:0:0:0:0:0:1 - - [06/Jun/2019:01:58:15 +0530] "POST /OnlineVoting/forgotpassword HTTP/1.1" 200 -

@@ -21,5 +21,11 @@
 			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
 		</attributes>
 	</classpathentry>
+	<classpathentry kind="lib" path="D:/JavaProjects/mysql-connector-java-8.0.15/mysql-connector-java-8.0.15.jar"/>
+	<classpathentry kind="lib" path="D:/JavaProjects/mysql-connector-java-8.0.15/lib/jboss-common-jdbc-wrapper.jar"/>
+	<classpathentry kind="lib" path="D:/JavaProjects/mysql-connector-java-8.0.15/lib/jboss-common-jdbc-wrapper-src.jar"/>
+	<classpathentry kind="lib" path="D:/JavaProjects/mysql-connector-java-8.0.15/lib/protobuf-java-3.6.1.jar"/>
+	<classpathentry kind="lib" path="D:/JavaProjects/mysql-connector-java-8.0.15/lib/slf4j-api-1.6.1.jar"/>
+	<classpathentry kind="lib" path="D:/JavaProjects/mysql-connector-java-8.0.15/lib/c3p0-0.9.1-pre6.jar"/>
 	<classpathentry kind="output" path="build/classes"/>
 </classpath>

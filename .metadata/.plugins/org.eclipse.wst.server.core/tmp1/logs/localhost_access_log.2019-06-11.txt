@@ -1,0 +1,2 @@
+0:0:0:0:0:0:0:1 - - [11/Jun/2019:14:31:28 +0530] "GET /OnlineVoting/Register.jsp HTTP/1.1" 200 6794
+0:0:0:0:0:0:0:1 - - [11/Jun/2019:17:52:50 +0530] "GET /OnlineVoting/RegisterContent/fonts/iconic/fonts/Material-Design-Iconic-Font.woff2?v=2.2.0 HTTP/1.1" 200 38384
